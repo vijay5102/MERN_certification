@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background: url("hotel.avif") no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+
+    
+
+}
+
+.div1 {
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid #ad12b3;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px #b60909;
+    color: rgb(87, 122, 202);
+    border-radius: 10px;
+    padding: 30px 10px;
+    
+}
+
+.div1 h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #1c1919;
+
+}
+
+.div1 .input-box {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    margin: 30px 0;
+    
+}
+
+.input-box input {
+    width: 400%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #121312;
+    border-radius: 40px;
+    font-size: 15px;
+    color: #123bcd00;
+    padding-left: 15px;
+}
+
+.input-box input::placeholder {
+    color:#000000a3 ;
+
+}
+.input-box i{
+    position: absolute;
+    left: 365%;
+    top: 50%;
+    font-size: 15px;
+    transform: translateY(-50%)
+    
+}
+
+.div1 .remember {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+    
+    
+}
+
+.remember label input{
+    accent-color:  #d3c6c6;
+    margin-right: 3px;
+}
+
+.remember a {
+    color: #d3c6c6;
+    padding-right: 7px;
+    text-decoration: none;
+}
+.remember a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.div1 .btn{
+    width: 100%;
+    height: 5vh;
+    border-radius: 40px;
+    background-color: #d3c6c6;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: rgb(68, 68, 68);
+    font-weight: 600;
+}
+
+.div1 .Register{
+   font-size: 14px;
+   text-align: center;
+   margin:27px 0 15px;
+}
+
+.Register p a{
+    color: #d3c6c6;
+    padding-left: 10px;
+    text-decoration: none;
+    
+}
+
+.Register  a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><center>
+    <input type="text" id="input_1" placeholder="enter no 1"/><br>
+    <input type="text" id="input_2" placeholder="enter no 2"/><br>
+    <button onclick="addition()">Add</button>
+    <button onclick="sub()">sub</button>
+    <button onclick="mul()">mul</button>
+    <button onclick="div()">div</button>
+</center>
+<script>
+    function addition(){
+        let val1=Number(document.getElementById("input_1").value);
+        let val2=Number(document.getElementById("input_2").value);
+        console.log(val1+val2)
+    }
+    function sub(){
+        let val1=Number(document.getElementById("input_1").value);
+        let val2=Number(document.getElementById("input_2").value);
+        console.log(val1-val2)
+
+    }
+    function mul(){
+        let val1=Number(document.getElementById("input_1").value);
+        let val2=Number(document.getElementById("input_2").value);
+        console.log(val1*val2)
+    }
+    function div(){
+        let val1=Number(document.getElementById("input_1").value);
+        let val2=Number(document.getElementById("input_2").value);
+        console.log(val1%val2)
+
+    }
+</script
+</body>
+</html>

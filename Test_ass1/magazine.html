@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazine Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #1f13c6;
+            color: rgb(243, 239, 8);
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar .logo {
+            font-size: 24px;
+        }
+        .navbar .menu {
+            display: flex;
+            gap: 20px;
+        }
+        .navbar .menu a {
+            color: rgb(3, 3, 3);
+            text-decoration: none;
+        }
+        .header {
+            display: flex;
+            padding: 20px;
+            background-color: yellow;
+        }
+        .header .image {
+            flex: 1;
+            height: 150px;
+            
+        }
+        .header .content {
+            flex: 2;
+            padding: 20px;
+        }
+        .columns {
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+        .column {
+            flex: 1;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .column img {
+            width: 100%;
+            height: 150px;
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">MAGAZINE</div>
+        <div class="menu">
+            <a href="#">NEWS</a>
+            <a href="#">ART</a>
+            <a href="#">DESIGN</a>
+            <a href="#">CULTURE</a>
+        </div>
+    </div>
+    <div class="header">
+        <img src="magg.jpg" class="image">
+        <div class="content">
+            <h1>CONTEMPORARY ART</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu
+                the utum nall fugert asperato chevo chiya kasato thum jei men pyarr ludko haan jaan karae gi. Exseption sint oculate of kir
+                haaam islabities dolor nulla periater thum bein kacsto muai
+            </p>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <img src="write.png" alt="Placeholder Image">
+            <p>Lorem ipsum dolor sit suhan manham thangalan sitipel duasb
+                thugan magay jejo luana stepho eju illato ngahtjy balato 
+                mohi juthtao thugan heemal
+            </p>
+        </div>
+        <div class="column">
+            <img src="read.png" alt="Placeholder Image">
+            <p>Ut enim ad minim veniam, quis azerbaijan ak astepor
+                hami thhua jill jong jacky thuyavam jiltoeel cetap
+                thuoh jeko makeo midnuth humbe;
+            </p>
+        </div>
+        <div class="column">
+            <img src="view.jpg" alt="Placeholder Image">
+            <p>Duis aute irure dolor in the efbgb hyuu ddbfg
+                dfbgn the ehi ijykell ijondit feyopil suyaen 
+                jidi shyeyad the reyod
+            </p>
+        </div>
+    </div>
+</body>
+</html>

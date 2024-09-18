@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_Students">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="ADD"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STUDENT"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTER ROLL NUMBER:"
+        android:textSize="30dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id = "@+id/rno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Roll Number"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTER NAME:"
+        android:textSize="30dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id = "@+id/sn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT D.O.B (dd/mm/yyyy):"
+        android:textSize="25dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/sdob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"
+        android:text="SELECT D.O.B."/>
+
+    <Button
+        android:id="@+id/as"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD STUDENT"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="600dp" />
+
+
+</RelativeLayout>

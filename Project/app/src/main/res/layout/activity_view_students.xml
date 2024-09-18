@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_students">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STUDENT"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIST"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:id="@+id/list"
+        android:layout_marginTop="80dp"/>
+
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/list">
+
+        <TableLayout
+            android:id="@+id/tableview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>
